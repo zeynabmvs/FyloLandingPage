@@ -10,7 +10,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: $ff-josefin;
+    font-family: $ff-open-sans;
     font-size: rem(17);
 
     &.noscroll {
@@ -73,27 +73,6 @@ h1 {
     @include breakpoint-up(large){
         display: none;
     }
-}
-
-.button {
-    // border-radius: rem(32);
-    // font-weight: 600;
-    // font-family: $ff-fraunces;
-    // padding: rem(17) rem(37);
-}
-
-.tcolor {    
-    // &-darkdesaturatedcyan {
-    //     color: $darkDesaturatedCyan;
-    // }
-
-    // &-darkblue {
-    //     color: $darkBlue;
-    // }
-
-    // &-darkgrayishblue{
-    //     color: $darkGrayishBlue;
-    // }
 }
 
 .sr-only {

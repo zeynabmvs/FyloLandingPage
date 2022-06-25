@@ -2,12 +2,6 @@
 @use "sass:map";
 @use "sass:math";
 
-// Breakpoints
-@media (min-width: 64em){
-    // styles go here
-  }
-
-
 
 // 800px, 1024px, 1400px
 $breakpoints-up: ("medium": "50em", "large": "64em", "xlarge": "87.5em");
