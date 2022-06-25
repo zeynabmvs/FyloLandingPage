@@ -1,7 +1,19 @@
-// Colors
-$softRedL: hsl(7, 99%, 70%);
+// Primary Colors
+$veryDarkBlue: hsl(224, 93%, 58%);
+$desaturatedBlue: hsl(238, 22%, 44%);
+
+// Accent Colors
+$brightBLue: hsl(224, 93%, 58%);
+$moderateCyan: hsl(170, 45%, 43%);
 
 
+//Netrual Colors
+$lightGrayishBlue: hsl(240, 75%, 98%);
+$lightGray: hsl(0, 0%, 75%);
 
-// Font Families
-$ff-body: 'Public Sans', sans-serif;
+// Font Family, Body
+$ff-open-sans: 'Open Sans', sans-serif;
+
+
+// Font Family Headings, Call-to-actions, Header Navigation
+$ff-raleway:  'Raleway', sans-serif;
