@@ -85,13 +85,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 37px;
+  padding-bottom: 37px;
 }
 @media (min-width: 64em) {
   .header {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 54px;
+    padding-bottom: 54px;
   }
 }
 .header__nav a {
@@ -99,10 +99,93 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 .header__nav a:not(:last-child) {
-  margin-right: 2.5rem;
+  margin-right: 2.3125rem;
 }
 @media (min-width: 50em) {
   .header__nav a:not(:last-child) {
-    margin-right: 3.5rem;
+    margin-right: 2.875rem;
+  }
+}
+main .section1 {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column-reverse;
+}
+@media (min-width: 50em) {
+  main .section1 {
+    flex-direction: row;
+  }
+}
+main .section1__content {
+  text-align: center;
+}
+@media (min-width: 50em) {
+  main .section1__content {
+    text-align: left;
+    padding-right: 30px;
+  }
+}
+main .section1__content h1 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+main .section1__content p {
+  margin-bottom: 30px;
+}
+.get-started__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+@media (min-width: 50em) {
+  .get-started__grid {
+    flex-direction: row;
+    gap: 0.3125rem;
+  }
+}
+.get-started__grid input {
+  padding-left: 1.25rem;
+  border: 1px solid hsl(238deg, 22%, 44%);
+  border-radius: 2px;
+  height: 40px;
+  flex-grow: 3;
+}
+.get-started__grid input::-moz-placeholder {
+  color: hsl(0deg, 0%, 75%);
+  font-family: "Raleway", sans-serif;
+}
+.get-started__grid input:-ms-input-placeholder {
+  color: hsl(0deg, 0%, 75%);
+  font-family: "Raleway", sans-serif;
+}
+.get-started__grid input::placeholder {
+  color: hsl(0deg, 0%, 75%);
+  font-family: "Raleway", sans-serif;
+}
+.get-started__grid input:focus {
+  border: 2px solid hsl(238deg, 22%, 44%);
+}
+.get-started__grid input:valid {
+  border: 2px solid green;
+}
+.get-started__grid .cta {
+  flex-grow: 2;
+  background-color: hsl(224deg, 93%, 58%);
+  border: none;
+  border-radius: 3px;
+  color: hsl(240deg, 75%, 98%);
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  height: 40px;
+  font-weight: 700;
+  transition: opacity 150ms ease-in-out;
+}
+.get-started__grid .cta:hover {
+  opacity: 0.7;
+}
+@media (min-width: 50em) {
+  .get-started__grid .cta {
+    font-weight: 400;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
