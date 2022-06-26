@@ -1,0 +1,30 @@
+.header {
+    padding-top: 47px;
+    padding-bottom: 47px;
+
+    @include breakpoint-up(large) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    &__nav {
+        a {
+            color: $black;
+            font-family: $ff-raleway;
+
+            &:not(:last-child) {
+                margin-right: rem(40);
+
+                @include breakpoint-up(medium) {
+                    margin-right: rem(56);
+                }
+                
+            }
+        }
+    }
+
+    &__logo {
+
+    }
+
+}
