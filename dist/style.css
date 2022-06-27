@@ -106,30 +106,32 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 2.875rem;
   }
 }
-main .section1 {
+.section1 {
   display: flex;
   flex: 1 1 auto;
   flex-direction: column-reverse;
+  gap: 1rem;
+  margin-bottom: 4rem;
 }
 @media (min-width: 50em) {
-  main .section1 {
+  .section1 {
     flex-direction: row;
+    gap: 2rem;
   }
 }
-main .section1__content {
+.section1__content {
   text-align: center;
 }
 @media (min-width: 50em) {
-  main .section1__content {
+  .section1__content {
     text-align: left;
-    padding-right: 30px;
   }
 }
-main .section1__content h1 {
+.section1__content h1 {
   font-weight: 700;
   margin-bottom: 30px;
 }
-main .section1__content p {
+.section1__content p {
   margin-bottom: 30px;
 }
 .get-started__grid {
@@ -187,5 +189,80 @@ main .section1__content p {
   .get-started__grid .cta {
     font-weight: 400;
     font-size: 12px;
+  }
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+@media (min-width: 50em) {
+  .section2 {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+.section2 h2 {
+  margin-bottom: 30px;
+}
+.section2 a {
+  text-decoration: underline;
+}
+.section2__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 50em) {
+  .section2__wrapper {
+    display: block;
+  }
+}
+
+.testimonial {
+  border-radius: 4px;
+  box-shadow: 0px 1px 6px 3px hsl(0deg, 0%, 75%);
+  padding: 20px;
+  font-size: 13px;
+  width: 350px;
+}
+.testimonial__profile {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+.testimonial__wrapper2 h4 {
+  font-size: 12px;
+  font-weight: 300;
+}
+.testimonial__wrapper2 span {
+  font-size: 11px;
+}
+
+.section3 {
+  background-color: hsl(238deg, 22%, 44%);
+  color: hsl(240deg, 75%, 98%);
+  text-align: center;
+}
+.section3__wrapper {
+  height: 19.8125rem;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+@media (min-width: 50em) {
+  .section3__wrapper {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+.section3__wrapper .get-started__grid {
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (min-width: 50em) {
+  .section3__wrapper .get-started__grid {
+    align-items: flex-start;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -33,9 +33,9 @@
   </style>
 </head>
 
-<body class="container">
+<body>
 
-  <header class="header flex flex-d-r flex-ai-c flex-jc-sb">
+  <header class="header flex flex-d-r flex-ai-c flex-jc-sb container">
 
     <a href="#" class="header__logo" aria-label="Header logo">
       <img src="/images/logo.svg" alt="Site logo">
@@ -49,8 +49,8 @@
   </header>
 
   <main>
-    
-    <section class="section1">
+
+    <section class="section1 container">
       <div class="section1__content">
         <h1> All your files in one secure location, accessible anywhere.</h1>
         <p>Fylo stores your most important files in one secure location.
@@ -69,43 +69,73 @@
         </form>
 
       </div>
-    
+
       <div class="subscribe__picture">
         <img class="img-responsive" src="/images/illustration-1.svg" alt="illustration 1">
       </div>
-    
+
+    </section>
+
+    <section class="section2 mb-5 container">
+      <div class="section2__content">
+        <h2> Stay productive, wherever you are</h2>
+
+        <p>Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.</p><br>
+        <p>Securely share files and folders with friends, family and colleagues for
+          live collaboration. No email attachments required!</p>
+
+        <div class="section2__wrapper">
+          <a href="#" aria-label="How Fylo works">See how Fylo works <img src="/images/icon-arrow.svg"
+              alt="arrow icon"></a>
+
+          <div class="testimonial">
+            <img class="testimonial__icon" src="/images/icon-quotes.svg" alt="Quotes icon">
+            <p class="testimonial__text">Fylo has improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine.</p>
+
+            <div class="testimonial__wrapper flex flex-d-r">
+              <img class="testimonial__profile" src="/images/avatar-testimonial.jpg" alt="Avatar">
+
+              <div class="testimonial__wrapper2">
+
+                <h4>Kyle Burton</h4>
+                <span>Founder & CEO, Huddle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2__picture">
+        <img class="img-responsive" src="/images/illustration-2.svg" alt="illustration 2">
+      </div>
+
+    </section>
+
+    <section class="section3">  
+      <div class="container">
+
+        <div class="section3__wrapper flex">
+        <div>
+          <h2>Get early access today</h2>
+          <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+            If you have any questions, our support team would be happy to help you.</p>
+        </div>
+
+        <form class="get-started" action="#" method="post">
+          <label class="sr-only get-started__label" for="email">Email</label>
+          <div class="get-started__grid">
+            <input type="email" id="idEmail" name="email" placeholder="email@example.com" required maxlength="50"
+              pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"><br>
+            <button class="cta" type="submit" name="submit">Get Started For Free</button>
+          </div>
+        </form>
+      </div>
+      </div>
     </section>
 
   </main>
-
-
-
-
-
-
-
-
-
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you
-  covered for all of your file storage needs.
-
-  Securely share files and folders with friends, family and colleagues for
-  live collaboration. No email attachments required!
-
-  See how Fylo works
-
-  Fylo has improved our team productivity by an order of magnitude. Since
-  making the switch our team has become a well-oiled collaboration machine.
-
-  Kyle Burton
-  Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous.
-  If you have any questions, our support team would be happy to help you.
 
   Get Started For Free
 
