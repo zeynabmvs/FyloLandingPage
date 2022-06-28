@@ -1,0 +1,37 @@
+.section3 {
+    background-color: $desaturatedBlue;
+    color: $lightGrayishBlue;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    &__wrapper {
+        // height: rem(317);
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include breakpoint-up(medium) {
+            flex-direction: row;
+            text-align: left;
+        }
+
+        .get-started {
+            width: 70%;
+
+            &__grid {
+                flex-direction: column;
+                align-items: stretch;
+
+                @include breakpoint-up(medium) {
+                    align-items: flex-start;
+                }
+
+            }
+
+            @todo add box shadows
+        }
+    }
+
+}
