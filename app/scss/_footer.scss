@@ -1,0 +1,58 @@
+.footer {
+    background-color: $veryDarkBlue;
+    color: $white;
+    padding-top: rem(127);
+    padding-bottom: rem(90);
+    font-size: rem(32);
+
+    &__logo {
+        display: block;
+        margin-bottom: rem(86);
+    }
+
+    &__contact-info {
+        padding-bottom: rem(50);
+
+        div {
+            margin-bottom: rem(43);
+
+            img {
+                margin-right: rem(40);
+                width: rem(30);
+                height: rem(30);
+            }
+        }
+    }
+
+    &__links1,
+    &__links2 {
+        padding-bottom: rem(50);
+
+        a {
+            display: block;
+            color: $white;
+            margin-bottom: rem(50);
+        }
+    }
+
+
+    &__social {
+
+        // a {
+        //     svg {
+        //         width: rem(30);
+        //         height: rem(30);
+        //     }
+    
+        //     svg path {
+        //         fill: $white;
+        //         transition: fill 150ms ease-in-out;
+        //     }
+        //     &:hover svg path {
+        //         fill: $brightBLue;
+        //     }
+        // }
+    }
+
+
+}
