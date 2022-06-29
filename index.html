@@ -49,19 +49,14 @@
           family, and co-workers.</p>
 
         <form class="get-started" action="#" method="post">
-          <label class="sr-only get-started__label" for="email">Email</label>
-          <div class="get-started__grid">
-            <input type="email" id="idEmail" name="email" placeholder="Enter your email" required maxlength="50"
+            <input class="get-started__email" type="email" id="idEmail" name="email" placeholder="Enter your email" required maxlength="50"
               pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"><br>
-
-            <button class="cta" type="submit" name="submit">Get Started</button>
-
-          </div>
+            <button class="get-started__cta" type="submit" name="submit">Get Started</button>
         </form>
 
       </div>
 
-      <div class="subscribe__picture">
+      <div class="section1__picture">
         <img class="img-responsive" src="/images/illustration-1.svg" alt="illustration 1">
       </div>
 
@@ -79,11 +74,11 @@
             <p>Securely share files and folders with friends, family and colleagues for
               live collaboration. No email attachments required!</p>
 
-            <div class="section2__left__wrapper">
+              <div class="section2__left__wrapper">
               <a class="mb-2 section2__link" href="#" aria-label="How Fylo works">See how Fylo works <img
                   src="/images/icon-arrow.svg" alt="arrow icon"></a>
 
-              <div class="testimonial">
+                  <div class="testimonial">
                 <img class="testimonial__icon" src="/images/icon-quotes.svg" alt="Quotes icon">
                 <p class="testimonial__text">Fylo has improved our team productivity by an order of magnitude. Since
                   making the switch our team has become a well-oiled collaboration machine.</p>
@@ -113,7 +108,8 @@
     <section class="section3">
       <div class="container">
 
-        <div class="section3__wrapper flex">
+        <div class="section3__grid">
+          
           <div>
             <h2>Get early access today</h2>
             <p>It only takes a minute to sign up and our free starter tier is extremely generous.
@@ -121,13 +117,11 @@
           </div>
 
           <form class="get-started" action="#" method="post">
-            <label class="sr-only get-started__label" for="email">Email</label>
-            <div class="get-started__grid">
-              <input type="email" id="idEmail" name="email" placeholder="email@example.com" required maxlength="50"
-                pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"><br>
-              <button class="cta" type="submit" name="submit">Get Started For Free</button>
-            </div>
+            <input class="get-started__email" type="email" id="idEmail" name="email" placeholder="email@example.com" required maxlength="50"
+              pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"><br>
+            <button class="get-started__cta" type="submit" name="submit">Get Started For Free</button>
           </form>
+
         </div>
       </div>
     </section>
