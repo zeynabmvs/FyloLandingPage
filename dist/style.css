@@ -234,7 +234,7 @@ input:focus {
 .section2 {
   background-color: #F8F8FE;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 .section2::before {
@@ -249,6 +249,11 @@ input:focus {
   background-position: bottom;
   bottom: 100%;
 }
+@media (min-width: 50em) {
+  .section2 {
+    padding-top: 100px;
+  }
+}
 .section2__wrapper {
   display: flex;
   flex-direction: column-reverse;
@@ -260,6 +265,11 @@ input:focus {
     gap: 2rem;
   }
 }
+.section2__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .section2__left h2 {
   margin-bottom: 30px;
   text-align: center;
@@ -270,21 +280,20 @@ input:focus {
     text-align: left;
   }
 }
+.section2__left p {
+  margin-bottom: 1.25rem;
+}
 .section2__left a.section2__link {
   text-decoration: underline;
   color: hsl(170deg, 45%, 43%);
-}
-.section2__left__wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-bottom: 1.875rem;
 }
 @media (min-width: 50em) {
-  .section2__left__wrapper {
+  .section2__left {
     display: block;
   }
 }
-.section2__left__wrapper .testimonial {
+.section2__left .testimonial {
   border-radius: 4px;
   box-shadow: 0px 1px 6px 3px hsl(0deg, 0%, 75%);
   padding: 20px;
@@ -292,20 +301,20 @@ input:focus {
   width: 350px;
   background-color: #FFFFFF;
 }
-.section2__left__wrapper .testimonial__text {
+.section2__left .testimonial__text {
   margin-bottom: 0.625rem;
 }
-.section2__left__wrapper .testimonial__profile {
+.section2__left .testimonial__profile {
   border-radius: 50%;
   height: 60px;
   width: 60px;
   margin-right: 0.625rem;
 }
-.section2__left__wrapper .testimonial__wrapper2 h4 {
+.section2__left .testimonial__wrapper2 h4 {
   font-size: 12px;
   font-weight: 700;
 }
-.section2__left__wrapper .testimonial__wrapper2 span {
+.section2__left .testimonial__wrapper2 span {
   font-size: 11px;
 }
 .section3 {
@@ -429,8 +438,8 @@ input:focus {
   margin-right: 0.9375rem;
 }
 .footer__grid .footer__social a svg {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.875rem;
+  height: 1.875rem;
 }
 .footer__grid .footer__social a svg path {
   fill: #FFFFFF;
