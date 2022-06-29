@@ -112,7 +112,7 @@ input:focus {
   padding-left: 1.25rem;
   border: 1px solid hsl(238deg, 22%, 44%);
   border-radius: 2px;
-  height: 45px;
+  height: 2.8125rem;
   box-shadow: 0px 0px 2px 1px hsl(0deg, 0%, 80%);
 }
 @media (min-width: 50em) {
@@ -141,9 +141,9 @@ input:focus {
   border: none;
   border-radius: 3px;
   color: hsl(240deg, 75%, 98%);
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-family: "Raleway", sans-serif;
-  height: 45px;
+  height: 2.8125rem;
   font-weight: 700;
   transition: opacity 150ms ease-in-out;
   box-shadow: 7px 5px 5px -2px hsl(0deg, 0%, 90%);
@@ -151,7 +151,7 @@ input:focus {
 @media (min-width: 50em) {
   .get-started__cta {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 40%;
   }
 }
@@ -171,7 +171,7 @@ input:focus {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 
@@ -180,13 +180,13 @@ input:focus {
 }
 
 .header {
-  padding-top: 37px;
-  padding-bottom: 37px;
+  padding-top: 2.3125rem;
+  padding-bottom: 2.3125rem;
 }
 @media (min-width: 64em) {
   .header {
-    padding-top: 54px;
-    padding-bottom: 54px;
+    padding-top: 3.375rem;
+    padding-bottom: 3.375rem;
   }
 }
 .header__nav a {
@@ -206,9 +206,9 @@ input:focus {
   flex: 1 1 auto;
   flex-direction: column-reverse;
   gap: 1rem;
-  margin-bottom: 100px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin-bottom: 6.25rem;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
 }
 @media (min-width: 50em) {
   .section1 {
@@ -226,22 +226,22 @@ input:focus {
 }
 .section1__content h1 {
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .section1__content p {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .section2 {
   background-color: #F8F8FE;
   position: relative;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 3.125rem;
+  padding-bottom: 6.25rem;
 }
 .section2::before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 114px;
+  height: 7.125rem;
   display: block;
   background-image: url("/images/bg-curve-desktop.svg");
   background-repeat: no-repeat;
@@ -251,7 +251,7 @@ input:focus {
 }
 @media (min-width: 50em) {
   .section2 {
-    padding-top: 100px;
+    padding-top: 6.25rem;
   }
 }
 .section2__wrapper {
@@ -270,8 +270,13 @@ input:focus {
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 50em) {
+  .section2__left {
+    align-items: flex-start;
+  }
+}
 .section2__left h2 {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   text-align: center;
   font-weight: 700;
 }
@@ -283,22 +288,17 @@ input:focus {
 .section2__left p {
   margin-bottom: 1.25rem;
 }
-.section2__left a.section2__link {
+.section2__left .section2__link {
   text-decoration: underline;
   color: hsl(170deg, 45%, 43%);
   margin-bottom: 1.875rem;
 }
-@media (min-width: 50em) {
-  .section2__left {
-    display: block;
-  }
-}
 .section2__left .testimonial {
   border-radius: 4px;
   box-shadow: 0px 1px 6px 3px hsl(0deg, 0%, 75%);
-  padding: 20px;
-  font-size: 13px;
-  width: 350px;
+  padding: 1.25rem;
+  font-size: 0.8125rem;
+  width: 21.875rem;
   background-color: #FFFFFF;
 }
 .section2__left .testimonial__text {
@@ -306,16 +306,16 @@ input:focus {
 }
 .section2__left .testimonial__profile {
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  height: 3.75rem;
+  width: 3.75rem;
   margin-right: 0.625rem;
 }
 .section2__left .testimonial__wrapper2 h4 {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 .section2__left .testimonial__wrapper2 span {
-  font-size: 11px;
+  font-size: 0.6875rem;
 }
 .section3 {
   background-color: hsl(238deg, 22%, 44%);
@@ -438,8 +438,8 @@ input:focus {
   margin-right: 0.9375rem;
 }
 .footer__grid .footer__social a svg {
-  width: 1.875rem;
-  height: 1.875rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 .footer__grid .footer__social a svg path {
   fill: #FFFFFF;

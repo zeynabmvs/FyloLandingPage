@@ -3,9 +3,9 @@
     flex: 1 1 auto;
     flex-direction: column-reverse;
     gap: 1rem;
-    margin-bottom: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-bottom: rem(100);
+    padding-top: rem(100);
+    padding-bottom: rem(100);
 
     @include breakpoint-up(medium) {
         flex-direction: row;
@@ -21,11 +21,11 @@
 
         h1 {
             font-weight: 700;
-            margin-bottom: 30px;
+            margin-bottom: rem(30);
         }
 
         p {
-            margin-bottom: 30px;
+            margin-bottom: rem(30);
         }
 
     }
