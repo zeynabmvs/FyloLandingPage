@@ -1,58 +1,64 @@
 .footer {
     background-color: $veryDarkBlue;
     color: $white;
-    padding-top: rem(127);
-    padding-bottom: rem(90);
-    font-size: rem(32);
+    padding-top: rem(63);
+    padding-bottom: rem(45);
+    font-size: rem(16);
 
     &__logo {
         display: block;
-        margin-bottom: rem(86);
+        margin-bottom: rem(43);
     }
 
     &__contact-info {
-        padding-bottom: rem(50);
+        padding-bottom: rem(25);
 
         div {
-            margin-bottom: rem(43);
+            margin-bottom: rem(21);
 
             img {
-                margin-right: rem(40);
-                width: rem(30);
-                height: rem(30);
+                margin-right: rem(20);
+                width: rem(20);
+                height: rem(20);
             }
         }
     }
 
     &__links1,
     &__links2 {
-        padding-bottom: rem(50);
+        padding-bottom: rem(25);
 
         a {
             display: block;
             color: $white;
-            margin-bottom: rem(50);
+            margin-bottom: rem(25);
         }
     }
 
 
     &__social {
+        margin-bottom: rem(25);
+        
+        a {
 
-        // a {
-        //     svg {
-        //         width: rem(30);
-        //         height: rem(30);
-        //     }
+            :not(last-child){
+                margin-right: rem(15);
+            }
+
+            svg {
+                width: rem(20);
+                height: rem(20);
+            }
     
-        //     svg path {
-        //         fill: $white;
-        //         transition: fill 150ms ease-in-out;
-        //     }
+            svg path {
+                fill: $white;
+                // transition: fill 150ms ease-in-out;
+            }
         //     &:hover svg path {
         //         fill: $brightBLue;
         //     }
         // }
     }
 
-
+    }
 }

@@ -157,6 +157,15 @@ input:focus {
   }
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
 .header {
   padding-top: 37px;
   padding-bottom: 37px;
@@ -317,30 +326,43 @@ input:focus {
 .footer {
   background-color: hsl(243deg, 87%, 12%);
   color: #FFFFFF;
-  padding-top: 7.9375rem;
-  padding-bottom: 5.625rem;
-  font-size: 2rem;
+  padding-top: 3.9375rem;
+  padding-bottom: 2.8125rem;
+  font-size: 1rem;
 }
 .footer__logo {
   display: block;
-  margin-bottom: 5.375rem;
-}
-.footer__contact-info {
-  padding-bottom: 3.125rem;
-}
-.footer__contact-info div {
   margin-bottom: 2.6875rem;
 }
+.footer__contact-info {
+  padding-bottom: 1.5625rem;
+}
+.footer__contact-info div {
+  margin-bottom: 1.3125rem;
+}
 .footer__contact-info div img {
-  margin-right: 2.5rem;
-  width: 1.875rem;
-  height: 1.875rem;
+  margin-right: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 .footer__links1, .footer__links2 {
-  padding-bottom: 3.125rem;
+  padding-bottom: 1.5625rem;
 }
 .footer__links1 a, .footer__links2 a {
   display: block;
   color: #FFFFFF;
-  margin-bottom: 3.125rem;
+  margin-bottom: 1.5625rem;
+}
+.footer__social {
+  margin-bottom: 1.5625rem;
+}
+.footer__social a :not(last-child) {
+  margin-right: 0.9375rem;
+}
+.footer__social a svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.footer__social a svg path {
+  fill: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
