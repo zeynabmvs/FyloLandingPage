@@ -5,60 +5,89 @@
     padding-bottom: rem(45);
     font-size: rem(16);
 
+    @include breakpoint-up(medium) {
+        padding-top: rem(92);
+        padding-bottom: 1rem;
+    }
+
     &__logo {
         display: block;
         margin-bottom: rem(43);
-    }
 
-    &__contact-info {
-        padding-bottom: rem(25);
-
-        div {
-            margin-bottom: rem(21);
-
-            img {
-                margin-right: rem(20);
-                width: rem(20);
-                height: rem(20);
-            }
+        @include breakpoint-up(medium) {
+            margin-bottom: rem(39);
         }
     }
 
-    &__links1,
-    &__links2 {
-        padding-bottom: rem(25);
+    &__grid {
 
-        a {
-            display: block;
-            color: $white;
+        @include breakpoint-up(medium) {
+            display: grid;
+            grid-template-columns: 3fr repeat(3, 2fr);
+            grid-template-rows: 1fr;
+        }
+
+        .footer__contact-info {
+            padding-bottom: rem(25);
+
+            div {
+                margin-bottom: rem(21);
+
+                img {
+                    margin-right: rem(20);
+                    width: rem(20);
+                    height: rem(20);
+                }
+            }
+        }
+
+        .footer__links1,
+        .footer__links2 {
+            padding-bottom: rem(25);
+
+            a {
+                display: block;
+                color: $white;
+                margin-bottom: rem(25);
+                transition: color 150ms ease-in-out;
+
+                &:hover {
+                    color: $brightBLue;
+                }
+            }
+        }
+
+
+        .footer__social {
             margin-bottom: rem(25);
+            
+            @include breakpoint-up(medium) {
+                margin-bottom: 0;
+                justify-self: flex-start;
+            }
+            a {
+
+                :not(last-child) {
+                    margin-right: rem(15);
+                }
+
+                svg {
+                    width: rem(20);
+                    height: rem(20);
+                }
+
+                svg path {
+                    fill: $white;
+                    transition: fill 150ms ease-in-out;
+                }
+
+                &:hover {
+                    svg path {
+                        fill: $brightBLue;
+                    }
+                }
+            }
         }
-    }
-
-
-    &__social {
-        margin-bottom: rem(25);
-        
-        a {
-
-            :not(last-child){
-                margin-right: rem(15);
-            }
-
-            svg {
-                width: rem(20);
-                height: rem(20);
-            }
-    
-            svg path {
-                fill: $white;
-                // transition: fill 150ms ease-in-out;
-            }
-        //     &:hover svg path {
-        //         fill: $brightBLue;
-        //     }
-        // }
-    }
 
     }
 }
