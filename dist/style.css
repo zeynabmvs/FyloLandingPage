@@ -317,6 +317,11 @@ input:focus {
 .section2__left .testimonial__wrapper2 span {
   font-size: 0.6875rem;
 }
+address {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
 .section3 {
   background-color: hsl(238deg, 22%, 44%);
   color: hsl(240deg, 75%, 98%);
