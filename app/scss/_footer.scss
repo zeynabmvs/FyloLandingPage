@@ -66,19 +66,35 @@
                 justify-self: flex-start;
             }
             a {
-
-                :not(last-child) {
+                width: rem(30);
+                height: rem(30);
+                position: relative;
+                border: 1px solid $white;
+                border-radius: 18px;
+                color: $white;
+                padding: 17px;
+                transition: all 150ms ease-in-out;
+                
+                &:not(last-child) {
                     margin-right: rem(15);
+                }
+
+                &:hover {
+                    border-color: $brightBLue;
                 }
 
                 svg {
                     width: rem(20);
                     height: rem(20);
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
 
                 svg path {
                     fill: $white;
-                    transition: fill 150ms ease-in-out;
+                    transition: all 150ms ease-in-out;
                 }
 
                 &:hover {

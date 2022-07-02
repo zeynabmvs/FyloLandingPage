@@ -434,16 +434,33 @@ input:focus {
     justify-self: flex-start;
   }
 }
-.footer__grid .footer__social a :not(last-child) {
+.footer__grid .footer__social a {
+  width: 1.875rem;
+  height: 1.875rem;
+  position: relative;
+  border: 1px solid #FFFFFF;
+  border-radius: 18px;
+  color: #FFFFFF;
+  padding: 17px;
+  transition: all 150ms ease-in-out;
+}
+.footer__grid .footer__social a:not(last-child) {
   margin-right: 0.9375rem;
+}
+.footer__grid .footer__social a:hover {
+  border-color: hsl(224deg, 93%, 58%);
 }
 .footer__grid .footer__social a svg {
   width: 1.25rem;
   height: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .footer__grid .footer__social a svg path {
   fill: #FFFFFF;
-  transition: fill 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 .footer__grid .footer__social a:hover svg path {
   fill: hsl(224deg, 93%, 58%);
