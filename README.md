@@ -25,8 +25,9 @@ Users should be able to:
 ### Screenshot
 
 <p align="middle">
-  <img src="https://github.com/zeynabmvs/FyloLandingPage/blob/main/Screenshot.png">
+  <img width="" height="" src="https://github.com/zeynabmvs/FyloLandingPage/blob/main/Screenshot.png">
 </p>
+
 ### Links
 
 - Solution URL: [Code on Github](https://github.com/zeynabmvs/FyloLandingPage)
